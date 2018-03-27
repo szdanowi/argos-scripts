@@ -20,6 +20,9 @@ do
     if [[ "${governor}" == "${current_governor}" ]]; then
         prefix="<b>"
         postfix=" •</b>"
+    else
+        prefix=""
+        postfix=""
     fi
     echo "${prefix}${governor}${postfix} | terminal=false bash=\"${switch_governor_command} ${governor}\""
 done
