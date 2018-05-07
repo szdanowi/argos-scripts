@@ -8,7 +8,13 @@ This project contains various scripts to be used with [Argos, an extension to GN
 
 ### Installation
 
-Simply copy or link desired scripts to your `~/.config/argos` directory - e.g.:
+#### Automated
+
+Run `install.sh` script located in the repository's main directory.
+
+#### Manual
+
+Copy or link desired scripts to your `~/.config/argos` directory - e.g.:
 ```
 # assuming you checked out the repository to ~/git/argos-scripts
 # and want to have the state refreshed every 3 seconds:
